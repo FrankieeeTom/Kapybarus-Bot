@@ -24,9 +24,6 @@ async def on_message(message):
         if user_message == '!smrdíš':
             await message.channel.send(f'ne to ty smrdíš {username}!')
             return
-        elif user_message == 'AI':
-            await message.channel.send(f'/imagine prompt:dog in space/imagine prompt:dog in space')
-            return
         elif user_message == '!DEBYL':
             await message.channel.sendf(f"")
             return
